@@ -1,0 +1,111 @@
+{
+  "html": [
+    {
+      "bestand": "index.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-01/response.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-02/index.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-03/a-paragraaf.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-03/b-hyperlink.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-03/c-genest.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-03/d-gecorrigeerd.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-04/index.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-05/index.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-08/fout.html",
+      "parserfouten": [
+        "unexpected-end-tag"
+      ]
+    },
+    {
+      "bestand": "opdracht-08/index.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-08/origineel.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-08/zonder-spatie.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-09/voorbeeld headings.HTML",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-10/fout.html",
+      "parserfouten": []
+    },
+    {
+      "bestand": "opdracht-10/index.html",
+      "parserfouten": []
+    }
+  ],
+  "rendertekst": {
+    "opdracht-04/index.html": [
+      "Whitespace testen",
+      "Eén spatie",
+      "Hallo wereld",
+      "Extra spaties",
+      "Hallo wereld",
+      "Lege regels",
+      "Hallo wereld",
+      "Vaste spaties",
+      "Hallo   wereld",
+      "Regeleinde",
+      "Hallo",
+      "wereld"
+    ],
+    "opdracht-05/index.html": [
+      "Gebruik &nbsp; en <br /> echter niet voor lay-out doeleinden, daarvoor",
+      "gebruiken we immers CSS!"
+    ],
+    "opdracht-08/origineel.html": [
+      "hier komt eenlink te staan"
+    ],
+    "opdracht-08/zonder-spatie.html": [
+      "hier komt eenlinkte staan"
+    ],
+    "opdracht-08/index.html": [
+      "hier komt een link te staan"
+    ]
+  },
+  "haakjes": {
+    "(4x2 + 2(": false,
+    "(4x2( +2": false,
+    "(4x(2+2)": false,
+    "(4x(2+2()": false,
+    "({}[])": true,
+    "{{{()]": false,
+    "({()})": true,
+    "(){[}]": false,
+    "{{([])": false
+  },
+  "controle": "HTML5-parser, lijststructuur, lokale afbeelding en WeasyPrint-tekstcontrole; geen Chrome-test."
+}
